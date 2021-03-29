@@ -1,0 +1,839 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo",
+      "tag": "3",
+      "tagcustom": "badge pill orange float-right mr-10",
+      "submenu": [
+        {
+          "url": "gui/",
+          "name": "Modern",
+          "i18n": "Modern",
+          "slug": "dashboard-modern"
+        },
+        {
+          "url": "gui/ecommerce",
+          "name": "eCommerce",
+          "i18n": "eCommerce",
+          "slug": "dashboard-ecommerce"
+        },
+        {
+          "url": "gui/analytics",
+          "name": "Analytics",
+          "i18n": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "gui/app-email",
+      "name": "Mail",
+      "i18n": "Mail",
+      "class": "waves-effect waves-cyan",
+      "icon": "mail_outline",
+      "slug": "app-email",
+      "tag": "5",
+      "tagcustom": "new badge pill pink accent-2 float-right mr-2"
+    },
+    {
+      "url": "gui/app-chat",
+      "name": "Chat",
+      "i18n": "Chat",
+      "class": "waves-effect waves-cyan",
+      "icon": "chat_bubble_outline",
+      "slug": "app-chat"
+    },
+    {
+      "url": "gui/app-todo",
+      "name": "ToDo",
+      "i18n": "ToDo",
+      "class": "waves-effect waves-cyan",
+      "icon": "check",
+      "slug": "app-todo"
+    },
+    {
+      "url": "gui/app-kanban",
+      "name": "Kanban",
+      "i18n": "Kanban",
+      "class": "waves-effect waves-cyan",
+      "icon": "format_list_bulleted",
+      "slug": "app-kanban"
+    },
+    {
+      "url": "gui/app-file-manager",
+      "name": "File manager",
+      "i18n": "File Manager",
+      "class": "waves-effect waves-cyan",
+      "icon": "content_paste",
+      "slug": "app-file-manager"
+    },
+    {
+      "url": "gui/app-contacts",
+      "name": "Contacts",
+      "i18n": "Contacts",
+      "class": "waves-effect waves-cyan",
+      "icon": "import_contacts",
+      "slug": "app-contacts"
+    },
+    {
+      "url": "gui/app-calendar",
+      "name": "Calendar",
+      "i18n": "Calendar",
+      "class": "waves-effect waves-cyan",
+      "icon": "today",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Invoice",
+      "i18n": "Invoice",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "app-invoice",
+      "icon": "receipt",
+      "submenu": [
+        {
+          "url": "gui/app-invoice-list",
+          "name": "Invoice List",
+          "i18n": "Invoice List",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "gui/app-invoice-view",
+          "name": "Invoice View",
+          "i18n": "Invoice View",
+          "slug": "app-invoice-view"
+        },
+        {
+          "url": "gui/app-invoice-edit",
+          "name": "Invoice Edit",
+          "i18n": "Invoice Edit",
+          "slug": "app-invoice-edit"
+        },
+        {
+          "url": "gui/app-invoice-add",
+          "name": "Invoice Add",
+          "i18n": "Invoice Add",
+          "slug": "app-invoice-add"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "eCommerce",
+      "i18n": "eCommerce",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "eCommerce",
+      "icon": "add_shopping_cart",
+      "submenu": [
+        {
+          "url": "gui/eCommerce-products-page",
+          "name": "Products Page",
+          "i18n": "Products Page",
+          "slug": "eCommerce-products-page"
+        },
+        {
+          "url": "gui/eCommerce-pricing",
+          "name": "Pricing",
+          "i18n": "Pricing",
+          "slug": "eCommerce-pricing"
+        }
+      ]
+    },
+    {
+      "navheader": "Pages ",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "gui/user-profile-page",
+      "name": "User Profile",
+      "i18n": "User Profile",
+      "class": "waves-effect waves-cyan",
+      "icon": "person_outline",
+      "slug": "user-profile-page"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Pages",
+      "i18n": "Pages",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "pages",
+      "icon": "content_paste",
+      "submenu": [
+        {
+          "url": "gui/page-contact",
+          "name": "Contact",
+          "i18n": "Contact",
+          "slug": "page-contact"
+        },
+        {
+          "url": "gui/page-blog-list",
+          "name": "Blog",
+          "i18n": "Blog",
+          "slug": "page-blog-list"
+        },
+        {
+          "url": "gui/page-search",
+          "name": "Search",
+          "i18n": "Search",
+          "slug": "page-search"
+        },
+        {
+          "url": "gui/page-knowledge",
+          "name": "Knowledge",
+          "i18n": "Knowledge",
+          "slug": "page-knowledge"
+        },
+        {
+          "url": "gui/page-timeline",
+          "name": "Timeline",
+          "i18n": "Timeline",
+          "slug": "page-timeline"
+        },
+        {
+          "url": "gui/page-faq",
+          "name": "FAQs",
+          "i18n": "FAQs",
+          "slug": "page-faq"
+        },
+        {
+          "url": "gui/page-account-settings",
+          "name": "Account Settings",
+          "i18n": "Account Settings",
+          "slug": "page-account-settings"
+        },
+        {
+          "url": "gui/page-blank",
+          "name": "Page Blank",
+          "i18n": "Page Blank",
+          "slug": "page-blank"
+        },
+        {
+          "url": "gui/page-collapse",
+          "name": "Page Collapse",
+          "i18n": "Page Collapse",
+          "slug": "page-collapse"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Medias",
+      "i18n": "Medias",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "medias",
+      "icon": "crop_original",
+      "submenu": [
+        {
+          "url": "gui/media-gallery-page",
+          "name": "Gallery Page",
+          "i18n": "Gallery Page",
+          "slug": "media-gallery-page"
+        },
+        {
+          "url": "gui/media-hover-effects",
+          "name": "Media Hover Effects",
+          "i18n": "Media Hover Effects",
+          "slug": "media-hover-effects"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "User",
+      "i18n": "User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "face",
+      "tag": "3",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "gui/page-users-list",
+          "name": "List",
+          "i18n": "List",
+          "slug": "users-list"
+        },
+        {
+          "url": "gui/page-users-view",
+          "name": "View",
+          "i18n": "View",
+          "slug": "users-view"
+        },
+        {
+          "url": "gui/page-users-edit",
+          "name": "Edit",
+          "i18n": "Edit",
+          "slug": "users-edit"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Authentication",
+      "i18n": "Authentication",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "authentication",
+      "icon": "lock_open",
+      "tag": "10",
+      "tagcustom": "badge pill purple float-right mr-10",
+      "submenu": [
+        {
+          "url": "gui/user-login",
+          "name": "Login",
+          "i18n": "Login",
+          "slug": "user-login",
+          "newTab": "_blank"
+        },
+        {
+          "url": "gui/user-register",
+          "name": "Register",
+          "i18n": "Register",
+          "slug": "user-register",
+          "newTab": "_blank"
+        },
+        {
+          "url": "gui/user-forgot-password",
+          "name": "Forgot Password",
+          "i18n": "Forgot Password",
+          "slug": "user-forgot-password",
+          "newTab": "_blank"
+        },
+        {
+          "url": "gui/user-lock-screen",
+          "name": "Lock Screen",
+          "i18n": "Lock Screen",
+          "slug": "user-lock-screen",
+          "newTab": "_blank"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Misc",
+      "i18n": "Misc",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "misc",
+      "icon": "filter_tilt_shift",
+      "submenu": [
+        {
+          "url": "gui/page-404",
+          "name": "404",
+          "i18n": "404",
+          "slug": "page-404",
+          "newTab": "_blank"
+        },
+        {
+          "url": "gui/page-maintenance",
+          "name": "Page Maintenanace",
+          "i18n": "Page Maintenanace",
+          "slug": "page-maintenance",
+          "newTab": "_blank"
+        },
+        {
+          "url": "gui/page-500",
+          "name": "500",
+          "i18n": "500",
+          "slug": "page-505",
+          "newTab": "_blank"
+        }
+      ]
+    },
+    {
+      "navheader": "User Interface ",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Cards",
+      "i18n": "Cards",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "cards",
+      "icon": "cast",
+      "submenu": [
+        {
+          "url": "gui/cards-basic",
+          "name": "Cards",
+          "i18n": "Cards",
+          "slug": "cards-basic"
+        },
+        {
+          "url": "gui/cards-advance",
+          "name": "Cards Advance",
+          "i18n": "Cards Advance",
+          "slug": "cards-advance"
+        },
+        {
+          "url": "gui/cards-extended",
+          "name": "Cards Extended",
+          "i18n": "Cards Extended",
+          "slug": "cards-extended"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "CSS",
+      "i18n": "CSS",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "css",
+      "icon": "invert_colors",
+      "submenu": [
+        {
+          "url": "gui/css-typography",
+          "name": "Typograpy",
+          "i18n": "Typograpy",
+          "slug": "css-typography"
+        },
+        {
+          "url": "gui/css-color",
+          "name": "Color",
+          "i18n": "Color",
+          "slug": "css-color"
+        },
+        {
+          "url": "gui/css-grid",
+          "name": "Grid",
+          "i18n": "Grid",
+          "slug": "css-grid"
+        },
+        {
+          "url": "gui/css-helpers",
+          "name": "Helpers",
+          "i18n": "Helpers",
+          "slug": "css-helpers"
+        },
+        {
+          "url": "gui/css-media",
+          "name": "Media",
+          "i18n": "Media",
+          "slug": "css-media"
+        },
+        {
+          "url": "gui/css-pulse",
+          "name": "Pulse",
+          "i18n": "Pulse",
+          "slug": "css-pulse"
+        },
+        {
+          "url": "gui/css-sass",
+          "name": "Sass",
+          "i18n": "Sass",
+          "slug": "css-sass"
+        },
+        {
+          "url": "gui/css-shadow",
+          "name": "Shadow",
+          "i18n": "Shadow",
+          "slug": "css-shadow"
+        },
+        {
+          "url": "gui/css-animations",
+          "name": "Animations",
+          "i18n": "Animations",
+          "slug": "css-animations"
+        },
+        {
+          "url": "gui/css-transitions",
+          "name": "Transitions",
+          "i18n": "Transitions",
+          "slug": "css-transitions"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Basic UI",
+      "i18n": "Basic UI",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "basic-ui",
+      "icon": "photo_filter",
+      "submenu": [
+        {
+          "url": "javascript:void(0)",
+          "class": "collapsible-header waves-effect waves-cyan",
+          "name": "Buttons",
+          "i18n": "Buttons",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "gui/ui-basic-buttons",
+              "name": "Basic",
+              "i18n": "Basic",
+              "slug": "ui-basic-buttons"
+            },
+            {
+              "url": "gui/ui-extended-buttons",
+              "name": "Extended",
+              "i18n": "Extended",
+              "slug": "ui-extended-buttons"
+            }
+          ]
+        },
+        {
+          "url": "gui/ui-icons",
+          "name": "Icons",
+          "i18n": "Icons",
+          "slug": "ui-icons"
+        },
+        {
+          "url": "gui/ui-alerts",
+          "name": "Alerts",
+          "i18n": "Alerts",
+          "slug": "ui-alerts"
+        },
+        {
+          "url": "gui/ui-badges",
+          "name": "Badges",
+          "i18n": "Badges",
+          "slug": "ui-badges"
+        },
+        {
+          "url": "gui/ui-breadcrumbs",
+          "name": "Breadcrumbs",
+          "i18n": "Breadcrumbs",
+          "slug": "ui-breadcrumbs"
+        },
+        {
+          "url": "gui/ui-chips",
+          "name": "Chips",
+          "i18n": "Chips",
+          "slug": "ui-chips"
+        },
+        {
+          "url": "gui/ui-collections",
+          "name": "Collections",
+          "i18n": "Collections",
+          "slug": "ui-collections"
+        },
+        {
+          "url": "gui/ui-navbar",
+          "name": "Navbar",
+          "i18n": "Navbar",
+          "slug": "ui-navbar"
+        },
+        {
+          "url": "gui/ui-pagination",
+          "name": "Pagination",
+          "i18n": "Pagination",
+          "slug": "ui-pagination"
+        },
+        {
+          "url": "gui/ui-preloader",
+          "name": "Preloader",
+          "i18n": "Preloader",
+          "slug": "ui-preloader"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Advanced UI",
+      "i18n": "Advanced UI",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "advance-ui",
+      "icon": "settings_brightness",
+      "submenu": [
+        {
+          "url": "gui/advance-ui-carousel",
+          "name": "Carousel",
+          "i18n": "Carousel",
+          "slug": "advance-ui-carousel"
+        },
+        {
+          "url": "gui/advance-ui-collapsibles",
+          "name": "Collapsibles",
+          "i18n": "Collapsibles",
+          "slug": "advance-ui-collapsibles"
+        },
+        {
+          "url": "gui/advance-ui-toasts",
+          "name": "Toasts",
+          "i18n": "Toasts",
+          "slug": "advance-ui-toasts"
+        },
+        {
+          "url": "gui/advance-ui-tooltip",
+          "name": "Tooltip",
+          "i18n": "Tooltip",
+          "slug": "advance-ui-tooltip"
+        },
+        {
+          "url": "gui/advance-ui-dropdown",
+          "name": "Dropdown",
+          "i18n": "Dropdown",
+          "slug": "advance-ui-dropdown"
+        },
+        {
+          "url": "gui/advance-ui-feature-discovery",
+          "name": "Discovery",
+          "i18n": "Discovery",
+          "slug": "advance-ui-feature-discovery"
+        },
+        {
+          "url": "gui/advance-ui-media",
+          "name": "Media",
+          "i18n": "Media",
+          "slug": "advance-ui-media"
+        },
+        {
+          "url": "gui/advance-ui-modals",
+          "name": "Modals",
+          "i18n": "Modals",
+          "slug": "advance-ui-modals"
+        },
+        {
+          "url": "gui/advance-ui-scrollspy",
+          "name": "Scrollspy",
+          "i18n": "Scrollspy",
+          "slug": "advance-ui-scrollspy"
+        },
+        {
+          "url": "gui/advance-ui-tabs",
+          "name": "Tabs",
+          "i18n": "Tabs",
+          "slug": "advance-ui-tabs"
+        },
+        {
+          "url": "gui/advance-ui-waves",
+          "name": "Waves",
+          "i18n": "Waves",
+          "slug": "advance-ui-waves"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Extra Components",
+      "i18n": "Extra Components",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "extra-components",
+      "icon": "add_to_queue",
+      "submenu": [
+        {
+          "url": "gui/extra-components-range-slider",
+          "name": "Range Slider",
+          "i18n": "Range Slider",
+          "slug": "extra-components-range-slider"
+        },
+        {
+          "url": "gui/extra-components-sweetalert",
+          "name": "Sweetalert",
+          "i18n": "Sweetalert",
+          "slug": "extra-components-sweetalert"
+        },
+        {
+          "url": "gui/extra-components-nestable",
+          "name": "Nestable",
+          "i18n": "Nestable",
+          "slug": "extra-components-nestable"
+        },
+        {
+          "url": "gui/extra-components-treeview",
+          "name": "Treeview",
+          "i18n": "Treeview",
+          "slug": "extra-components-treeview"
+        },
+        {
+          "url": "gui/extra-components-ratings",
+          "name": "Ratings",
+          "i18n": "Ratings",
+          "slug": "extra-components-ratings"
+        },
+        {
+          "url": "gui/extra-components-tour",
+          "name": "Tour",
+          "i18n": "Tour",
+          "slug": "extra-components-tour"
+        },
+        {
+          "url": "gui/extra-components-i18n",
+          "name": "i18n",
+          "i18n": "i18n",
+          "slug": "extra-components-i18n"
+        },
+        {
+          "url": "gui/extra-components-highlight",
+          "name": "Highlight",
+          "i18n": "Highlight",
+          "slug": "extra-components-highlight"
+        }
+      ]
+    },
+    {
+      "navheader": "Tables & Forms ",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "gui/table-basic",
+      "name": "Basic Tables",
+      "i18n": "Basic Tables",
+      "class": "waves-effect waves-cyan",
+      "icon": "border_all",
+      "slug": "table-basic"
+    },
+    {
+      "url": "gui/table-data-table",
+      "name": "Data Tables",
+      "i18n": "Data Tables",
+      "class": "waves-effect waves-cyan",
+      "icon": "grid_on",
+      "slug": "table-data-table"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Forms",
+      "i18n": "Forms",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "form",
+      "icon": "chrome_reader_mode",
+      "submenu": [
+        {
+          "url": "gui/form-elements",
+          "name": "Form Elements",
+          "i18n": "Form Elements",
+          "slug": "form-elements"
+        },
+        {
+          "url": "gui/form-select2",
+          "name": "Form Select2",
+          "i18n": "Form Select2",
+          "slug": "form-select2"
+        },
+        {
+          "url": "gui/form-validation",
+          "name": "Form Validation",
+          "i18n": "Form Validation",
+          "slug": "form-validation"
+        },
+        {
+          "url": "gui/form-masks",
+          "name": "Form Masks",
+          "i18n": "Form Masks",
+          "slug": "form-masks"
+        },
+        {
+          "url": "gui/form-editor",
+          "name": "Form Editor",
+          "i18n": "Form Editor",
+          "slug": "form-editor"
+        },
+        {
+          "url": "gui/form-file-uploads",
+          "name": "File Uploads",
+          "i18n": "File Uploads",
+          "slug": "form-file-uploads"
+        }
+      ]
+    },
+    {
+      "url": "gui/form-layouts",
+      "name": "Form Layouts",
+      "i18n": "Form Layouts",
+      "class": "waves-effect waves-cyan",
+      "icon": "image_aspect_ratio",
+      "slug": "form-layouts"
+    },
+    {
+      "url": "gui/form-wizard",
+      "name": "Form Wizard",
+      "i18n": "Form Wizard",
+      "class": "waves-effect waves-cyan",
+      "icon": "settings_ethernet",
+      "slug": "form-wizard"
+    },
+    {
+      "navheader": "Charts",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Chart",
+      "i18n": "Chart",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "chart",
+      "icon": "pie_chart_outlined",
+      "submenu": [
+        {
+          "url": "gui/charts-chartjs",
+          "name": "ChartJS",
+          "i18n": "ChartJS",
+          "slug": "charts-chartjs"
+        },
+        {
+          "url": "gui/charts-chartist",
+          "name": "Chartist",
+          "i18n": "Chartist",
+          "slug": "charts-chartist"
+        },
+        {
+          "url": "gui/charts-sparklines",
+          "name": "Sparkline Charts",
+          "i18n": "Sparkline Charts",
+          "slug": "charts-sparklines"
+        }
+      ]
+    },
+    {
+      "navheader": "Misc ",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Menu levels",
+      "i18n": "Menu levels",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "icon": "photo_filter",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "javascript:void(0)",
+          "name": "Second level",
+          "i18n": "Second level",
+          "slug": ""
+        },
+        {
+          "url": "javascript:void(0)",
+          "class": "collapsible-header waves-effect waves-cyan",
+          "name": "Second level child",
+          "i18n": "Second level child",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "javascript:void(0)",
+              "name": "Third level",
+              "i18n": "Third level",
+              "slug": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "gui/https://pixinvent.com/materialize-material-design-admin-template/documentation/index.html",
+      "name": "Documentation",
+      "i18n": "Documentation",
+      "class": "waves-effect waves-cyan",
+      "icon": "import_contacts",
+      "slug": "documentation",
+      "newTab": "_blank"
+    },
+    {
+      "url": "gui/https://pixinvent.ticksy.com/",
+      "name": "Support",
+      "i18n": "Support",
+      "class": "waves-effect waves-cyan",
+      "icon": "help_outline",
+      "slug": "support",
+      "newTab": "_blank"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "menu": [
+    
+    {
+      "url": "solicitudes",
+      "name": "Solicitudes",
+      "i18n": "Solicitudes",
+      "class": "waves-effect waves-cyan",
+      "icon": "format_list_bulleted",
+      "slug": "solicitudes"
+    }
+  ]
+}
